@@ -7,11 +7,13 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li> <router-link to="/">Home</router-link> </li>
           <li> <router-link to="/about">About</router-link></li>
-          <li> <a href="collapsible.html">JavaScript</a></li>
+          <li> <router-link to="/contact">Contact</router-link></li>
         </ul>
       </div>
     </nav>
-    <router-view/>
+    <div class="container">
+      <router-view/>
+    </div>
   </div>
 </template>
 
